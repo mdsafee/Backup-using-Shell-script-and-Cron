@@ -1,6 +1,6 @@
 # Launch Instance
 # Create bucket in S3 for testing
-# SSH to you Launched instance
+# SSH to your Launched instance
 :~$ sudo apt-get update -y
 :~$ sudo apt-get install awscli
 :~$ aws help (to check whether aws cli installed or not)
