@@ -1,0 +1,15 @@
+# Launch Instance
+# Create bucket in S3 for testing
+# SSH to you Launched instance
+:~$ sudo apt-get update -y
+:~$ sudo apt-get install awscli
+:~$ aws help (to check whether aws cli installed or not)
+Click on your name tab and select My Security Credentials from the Aws Dashboard
+Under Access keys (access key ID and secret access key) create New key and show access key
+:~$ aws configure 
+    1. AWS Access Key ID [None]: copy and paste Access key ID
+    2. AWS Secret Access Key [None]: copy and paste secret access key
+    3. Default region name [None]:
+    4. Default region name [None]:
+:~$ aws s3 ls (view s3 buckets in CLI)
+:~$ aws s3 ls <bucket name> (view contain of bucket>
